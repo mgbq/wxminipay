@@ -1,0 +1,80 @@
+/* pages/pay/index.wxss */
+.header{
+  width:100%;
+  height:624rpx;
+}
+.btn{
+  width:540rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius:50rpx;
+  color: #FF3418;
+  font-size: 34rpx;
+}
+.btn-primary{
+  background-color: #FF3418;
+  color: #FFFFFF;
+}
+.recharge{
+  background:#ffffff;
+}
+.recharge-box{
+  padding:0 30rpx;
+}
+.recharge-box .title{
+  font-size:34rpx;
+  color:#333333;
+  margin-top:69rpx;
+}
+.recharge-box .input-box{
+  text-align:center;
+  margin-top:50rpx;
+  margin-bottom:30rpx;
+}
+.recharge-box .input-box .input{
+  display: block;
+  width:690rpx;
+  height:100rpx;
+  border:1rpx solid #D7D7D7;
+  border-radius:5rpx;
+  font-size:30rpx;
+  color:#333333;
+  text-align:center;
+}
+.item-num{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 31rpx;
+}
+.item-num .num{
+  height: 130rpx;
+  background-color: #F1F3F5;
+  color: #333333;
+  font-size: 32rpx;
+  width: 335rpx;
+  text-align: center;
+  line-height: 130rpx;
+  border-radius:8rpx;
+}
+.item-num .num.checked{
+  background-color: #FFEBE8;
+  color:#FF3418;
+}
+.recharge-box .btn-recharge{
+  margin: 300rpx auto 48rpx;
+  color:#FFFFFF;
+  font-weight:400;
+  box-shadow:0rpx 10rpx 18rpx 0rpx rgba(255,106,106,0.57);
+}
+.recharge-box .tip{
+  font-size:28rpx;
+  color:#999999;
+  text-align:center;
+}
+.recharge-box .tip .protocol{
+  display:inline;
+  color:#FF3418;
+}
